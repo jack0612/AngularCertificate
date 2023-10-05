@@ -1,0 +1,80 @@
+Arguments: 
+  C:\Program Files (x86)\nodejs\node.exe C:\Users\Jack Lu\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add rxjs@~7.5.0
+
+PATH: 
+  C:\tools\openjdk17\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Jack Lu\AppData\Local\Microsoft\WindowsApps;C:\Users\Jack Lu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\tools\openjdk-18.0.1.1\jdk-18.0.1.1\bin;C:\innovaPostProjects\tools\apache-maven-3.6.3\bin;C:\Users\Jack Lu\.dotnet\tools;C:\Users\Jack Lu\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.1\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\Jack Lu\AppData\Local\Yarn\Cache\v6\npm-@angular-platform-browser-dynamic-16.2.8-66d2830c236909491675172d207a114f086ca56c-integrity\node_modules\@angular\platform-browser-dynamic\fesm2022\platform-browser-dynamic.mjs' -> 'C:\AngularCertificate\weather\node_modules\@angular\platform-browser-dynamic\fesm2022\platform-browser-dynamic.mjs'
+
+npm manifest: 
+  {
+    "name": "ng-weather",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/common": "^16.2.5",
+      "@angular/compiler": "^16.2.5",
+      "@angular/core": "^16.2.5",
+      "@angular/forms": "^16.2.5",
+      "@angular/platform-browser": "^16.2.5",
+      "@angular/platform-browser-dynamic": "^16.2.5",
+      "@angular/pwa": "^14.2.9",
+      "@angular/router": "^16.2.5",
+      "@angular/service-worker": "16.2.5",
+      "body-parser": "^1.19.0",
+      "bootstrap": "^3.4.1",
+      "core-js": "^2.6.9",
+      "cors": "^2.8.5",
+      "express": "^4.17.3",
+      "rxjs": "6.5.4",
+      "tslib": "^2.0.0",
+      "web-push": "^3.3.5",
+      "zone.js": "~0.13.3"
+    },
+    "devDependencies": {
+      "@angular-devkit/build-angular": "^16.2.2",
+      "@angular/cli": "^16.2.2",
+      "@angular/compiler-cli": "^16.2.5",
+      "@types/jasmine": "~3.6.0",
+      "@types/node": "^6.14.6",
+      "blue-harvest": "^0.2.1",
+      "jasmine": "~2.6.0",
+      "jasmine-core": "~3.6.0",
+      "jasmine-spec-reporter": "~5.0.0",
+      "karma": "~6.4.0",
+      "karma-chrome-launcher": "~3.1.0",
+      "karma-cli": "~1.0.1",
+      "karma-coverage-istanbul-reporter": "~3.0.2",
+      "karma-jasmine": "~4.0.0",
+      "karma-jasmine-html-reporter": "^1.5.0",
+      "protractor": "^7.0.0",
+      "ts-node": "5.0.1",
+      "tslint": "~6.1.0",
+      "typescript": "4.9.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,15 @@
+<div class="well">
+  <app-country-selection (changeCountry)="onChangeCountry($event)"></app-country-selection>
+  <h2 class="mt-5">Enter a zipcode:</h2>
+  <input type="text" #zipcode placeholder="Zipcode" class="form-control">
+  <br>
+  <app-state-button [action]="action$">
+    <button default class="btn btn-primary" (click)="addLocation(zipcode.value)">
+      Add location
+    </button>
+    <button working disabled class="btn btn-primary">Adding...</button>
+    <button done class="done-button">
+      <img class="done-button-img" src='assets/icons/done-button.png'/>
+    </button>
+  </app-state-button>
+</div>
