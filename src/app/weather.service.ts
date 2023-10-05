@@ -7,7 +7,9 @@ import { ConditionsAndZip } from './models/conditions-and-zip.type';
 import { Country } from './models/country.model';
 
 
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class WeatherService {
 
   static URL = 'http://api.openweathermap.org/data/2.5';

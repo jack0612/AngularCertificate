@@ -6,7 +6,9 @@ import { Country } from './models/country.model';
 let LOCATIONS: string = "locations_594944050"; // in case to conflict with other's app
 
 
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class LocationService {
 
   locations: ILocation[] = [];
