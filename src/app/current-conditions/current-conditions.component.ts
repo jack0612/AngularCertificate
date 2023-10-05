@@ -3,7 +3,7 @@ import { WeatherService } from "../weather.service";
 import { LocationService } from "../location.service";
 import { ConditionsAndZip } from '../models/conditions-and-zip.type';
 import { interval } from 'rxjs';
-import { SubSink } from 'app/utils/subsink';
+import { SubSink } from '../utils/subsink';
 
 @Component({
   selector: 'app-current-conditions',

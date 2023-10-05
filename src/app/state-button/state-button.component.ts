@@ -1,5 +1,5 @@
 import { Component, HostListener, Input } from '@angular/core';
-import { AppUtil } from 'app/utils/app-util';
+import { AppUtil } from '../utils/app-util';
 import { Observable, timer } from 'rxjs';
 import { delay, tap } from 'rxjs/operators';
 

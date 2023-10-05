@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { LocationService } from "../location.service";
-import { WeatherService } from 'app/weather.service';
-import { AppUtil } from 'app/utils/app-util';
-import { State } from 'app/state-button/state-button.component';
-import { Country } from 'app/models/country.model';
+import { WeatherService } from '../weather.service';
+import { AppUtil } from '../utils/app-util';
+import { State } from '../state-button/state-button.component';
+import { Country } from '../models/country.model';
 
 @Component({
   selector: 'app-zipcode-entry',
